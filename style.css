@@ -1,0 +1,35 @@
+*{
+    font-family:"Nunito", sans-serif;
+}
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    height: 60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 100px;
+    box-shadow: 0 10px 10px 5px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    position:fixed;
+}
+.logo{
+    font-size:25px;
+}
+ul{
+    list-style-type:none;
+    font-size:20px;
+}
+ul li{
+    display:inline;
+    padding:0 10px;
+}
+#info{
+    width:30px;
+    height:500px;
+    background-color:black;
+    display:block;
+}
