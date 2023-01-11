@@ -19,7 +19,7 @@ body{
     border-radius: 5px;
     position:fixed;
     background-color:#e8e8e8;
-    z-index:2;
+    z-index:3;
 }
 .logo{
     font-size:25px;
@@ -58,10 +58,42 @@ ul li{
     align-items:center;
     justify-content:center;
     flex-direction:column;
+    position:relative;
+}
+#idSection1 {
     background-image: url("./images/coding.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:left top;
+}
+.sectionBackground {
+    background-color:#6E07F3;
+    height: 50vh;
+}
+
+.tableContainer {
+    z-index:2;
+    position:relative;
+    height:50vh;
+    width: 50vw;
+    background-color: white;
+    margin-top: -50px;
+    border-radius:10px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    border:1.5px solid #e6ecf8;
+    text-align: left;
+    max-width: 690px;
+}
+
+.table {
+    width:90%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 100px;
 }
 .title {
     font-size:5rem;
@@ -87,19 +119,40 @@ ul li{
     border:2px solid dodgerblue;
     font-weight: bold;
 }
-.section2 {
-    width: 100%;
-    height: 100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-    background-color:#6E07F3;
-}
+
 .summary {
     font-size:1.6rem;
     color:white;
 }
+
+.column {
+    width:33%;
+    color:#8b8d91;
+    font-weight: bold;
+}
+
+.marginTop {
+    padding-top:15px;
+}
+
+.tableTitle {
+    color:#6E07F3;
+    padding-top:20px;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+
+.centered {
+    margin-top:15%;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#idSection3 {
+    margin-top:-50px;
+}
+
 .btn:hover {
     background-color:dodgerblue;
 }
