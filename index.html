@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7436761e88.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -16,28 +17,28 @@
             <h1 class="logo">Victor Constantin Sova</h1>
             <ul>
                 <li>
-                    <a class="link" href="#info">Info</a>
+                    <a class="link" href="#idSection1">Info</a>
                 </li>
                 <li>
-                    <a class="link">Project</a>
+                    <a class="link" href="#idSection2">Tools</a>
                 </li>
                 <li>
-                    <a class="link">Contact</a>
+                    <a class="link" href="#idSection3">Socials</a>
                 </li>
             </ul>
         </div>
         <div class="section" id="idSection1">
-            <div>
+            <div id="heroContent">
                 <h1 class="title">Hi,<br/>My name is Victor</h1>
                 <p class="description">I like automating things and find solutions for different software problems.</p>
-                <button class="btn">Resume</button>
             </div>
         </div>
         <div class="section sectionBackground">
-            <h1 class="summary">I am a determined developer at the beginning of the journey with a passion for creative solutions.
+            <h1 class="summary white">I am a determined developer at the beginning of the journey with a passion for creative solutions.
             <br/>I'm pretty confident and always trying to learn new things that will help me to achieve my goals.</h1>
+            <button class="btn">Resume</button>
         </div>
-        <div class="tableContainer">
+        <div class="tableContainer" id="idSection2">
             <div class="centered">
                 <p class="tableTitle">Dev tools and languages</p>
                 <div class="table">
@@ -50,7 +51,19 @@
                 </div>
             </div>
         </div>
-        <div class="section sectionBackground" id="idSection3">Test</div>  
+        <div class="section sectionBackground" id="idSection3">
+            <div id="flex-around">
+                <a class="socialButtons" href="https://www.google.com" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                </a>
+                <a class="socialButtons" href="https://www.google.com" target="_blank">
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </a>
+                <a class="socialButtons" href="https://www.google.com" target="_blank">
+                    <i class="fa-solid fa-envelope fa-2xl"></i>
+                </a>
+            </div>
+        </div>  
     </div>
 </body>
 </html>

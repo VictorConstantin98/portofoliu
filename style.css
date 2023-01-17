@@ -55,20 +55,29 @@ ul li{
     height: 100vh;
     z-index:1;
     display:flex;
-    align-items:center;
-    justify-content:center;
     flex-direction:column;
     position:relative;
+    align-items: center;
+    justify-content: center;
 }
+
+#heroContent {
+    margin-top:-300px;
+    padding: 20px;
+    border-radius:20px;
+}
+
 #idSection1 {
-    background-image: url("./images/coding.png");
-    background-size:cover;
+    background-image: url("./images/Software-Developer.svg");
+    background-size:700px;
     background-repeat: no-repeat;
-    background-position:left top;
+    background-position:bottom -40px center;
+    color:black;
 }
 .sectionBackground {
     background-color:#6E07F3;
     height: 50vh;
+    color:white;
 }
 
 .tableContainer {
@@ -97,7 +106,6 @@ ul li{
 }
 .title {
     font-size:5rem;
-    color:white;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1);
@@ -106,7 +114,6 @@ ul li{
 }
 .description {
     font-size:2rem;
-    color:white;
     margin-bottom:15px;
 }
 .btn {
@@ -115,20 +122,24 @@ ul li{
     width:200px;
     font-size:2rem;
     background-color:transparent;
-    color:white;
-    border:2px solid dodgerblue;
+    border:2px solid #440795;
     font-weight: bold;
+    margin-top:60px;
+    color:white;
 }
 
 .summary {
     font-size:1.6rem;
+    color:#8b8d91;
+    font-weight: bold;
+}
+
+.white {
     color:white;
 }
 
 .column {
     width:33%;
-    color:#8b8d91;
-    font-weight: bold;
 }
 
 .marginTop {
@@ -151,8 +162,42 @@ ul li{
 
 #idSection3 {
     margin-top:-50px;
+    height:40vh;
 }
 
 .btn:hover {
-    background-color:dodgerblue;
+    background-color:#550cb5;
 }
+
+.socialButtons {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:2px solid white;
+    color:white;
+    background-color:transparent;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#flex-around {
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-top: 200px; 
+}
+
+@keyframes fading {
+    from{background-color:transparent;}
+    to{background-color:white;}
+}
+
+.socialButtons:hover {
+    background-color:white;
+    color:#6E07F3;
+    animation-name: fading;
+    animation-duration:300ms;
+}
+
