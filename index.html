@@ -10,6 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7436761e88.js" crossorigin="anonymous"></script>
+    <script>
+        console.log("Hello World!");
+        function openLink(ev){
+        window.open("https://www.imdb.com");
+    };
+    </script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -53,10 +60,10 @@
         </div>
         <div class="section sectionBackground" id="idSection3">
             <div id="flex-around">
-                <a class="socialButtons" href="https://www.google.com" target="_blank">
+                <a class="socialButtons" id="linkedInButton">
                     <i class="fa-brands fa-linkedin fa-2xl"></i>
                 </a>
-                <a class="socialButtons" href="https://www.google.com" target="_blank">
+                <a class="socialButtons" onclick='window.open("https://www.imdb.com");'>
                     <i class="fa-brands fa-github fa-2xl"></i>
                 </a>
                 <a class="socialButtons" href="https://www.google.com" target="_blank">
