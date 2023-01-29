@@ -6,13 +6,15 @@ window.onload=function(event){
     elem.textContent = text;
     document.body.appendChild(elem);
     document.getElementById("linkedInButton").onclick=function(ev){
-        window.open("https://www.google.com","_blank");
+        window.open("https://www.linkedin.com/in/victor-constantin-%C8%99ova-4330a7223/","_blank");
     };
+    document.getElementById("gitHubButton").onclick=function(ev){
+        window.open("https://github.com/VictorConstantin98","_blank");
+    }
     const socials = document.getElementsByClassName("socialButtons");
     console.log(socials.length);
     for(let element of socials){
         console.log(element);
-        element.style.color="red";
         console.log(element.getAttribute("href"));
         console.log(elem);
     };
